@@ -13,6 +13,7 @@ header h1{
 }
 .post{
     background: white;
+    margin-top: 10px;
 }
 img{
     width:100%;
@@ -28,3 +29,17 @@ img{
 .post h2{
     padding: 5px;
 }
+ div.post .post-header div:first-child{
+ display: inline-block;
+ width: 80%;
+ 
+ }
+
+ div.post .post-header div:last-child{
+    display: inline-block;
+    
+    
+ }
+ div{
+box-sizing: border-box;
+ }
